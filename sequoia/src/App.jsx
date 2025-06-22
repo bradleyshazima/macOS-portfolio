@@ -33,6 +33,7 @@ function App() {
         </div>
 
         <section className='w-full flex-1 flex px-8 py-4 relative overflow-hidden'>
+          {/* ========== DOCK ========== */}
           <Dock iconSize={80} iconMagnification={120} className="z-10 absolute bottom-7 left-1/2 -translate-x-1/2 h-20">
             <DockIcon className="!p-0">
               <img src={Finder} alt="Finder" />
@@ -47,6 +48,9 @@ function App() {
               <img src={Terminal} alt="Terminal" />
             </DockIcon>
           </Dock>
+
+
+          <FinderWindow/>
         </section>
       </main>
     </>

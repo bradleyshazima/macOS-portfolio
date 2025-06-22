@@ -10,6 +10,9 @@ import Messages from './message.png';
 import Photos from './photos.png';
 import Trash from './trash.png';
 import Terminal from './terminal.png';
+import Search from './search.svg';
+import Nav from './nav.svg';
+import File from './file.svg';
 
 export {
     Apple,
@@ -24,4 +27,7 @@ export {
     Photos,
     Trash,
     Terminal,
+    Search,
+    Nav,
+    File,
 }
