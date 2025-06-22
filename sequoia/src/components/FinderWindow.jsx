@@ -9,8 +9,8 @@ const Finder = () => {
   return (
     <div className='flex w-[800px] h-[600px] rounded-2xl overflow-hidden bg-white shadowCustom'>
         {/* sidenav */}
-        <div class="h-full w-52 flex flex-col bg-[#DBDBDB]">
-          <div className='w-full h-12 flex items-center px-5'>
+        <div className="h-full w-52 flex flex-col bg-[#DBDBDB]">
+          <div className='w-full h-12 flex items-center px-5 finder-header'>
             <ul className='flex gap-2'>
                 <li><span className='block w-[12px] h-[12px] rounded-full bg-[#FF5F57] border border-[#00000033]'></span></li>
                 <li><span className='block w-[12px] h-[12px] rounded-full bg-[#FEBC2E] border border-[#00000033]'></span></li>
@@ -49,7 +49,7 @@ const Finder = () => {
         {/* =============== MAIN CONTENT ============== */}
         <div className='h-full flex-1 flex flex-col'>
           {/* ---Topbar----- */}
-          <div className='flex items-center px-5 h-12 w-full bg-[#E9E9E9] shadowCustom gap-4'>
+          <div className='flex items-center px-5 h-12 w-full bg-[#E9E9E9] shadowCustom gap-4 finder-header'>
             <img src={Nav} alt="Nav" />
             <h4 className='font-semibold'>Title</h4>
           </div>
